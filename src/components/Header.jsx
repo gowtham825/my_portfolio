@@ -15,14 +15,14 @@ const Header = ({ onRefresh, lastUpdated, loading }) => {
           </p>
         </div>
       </div>
-      <button
+      {/* <button
         className={`refresh-btn ${loading ? 'loading' : ''}`}
         onClick={onRefresh}
         disabled={loading}
       >
         <FiRefreshCw className={loading ? 'spin' : ''} />
         {loading ? 'Refreshing...' : 'Refresh'}
-      </button>
+      </button> */}
     </header>
   );
 };
