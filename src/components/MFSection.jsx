@@ -4,7 +4,7 @@ import SummaryCard from './SummaryCard';
 import HoldingRow from './HoldingRow';
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 
-const COLORS = ['#6366f1', '#8b5cf6', '#06b6d4', '#10b981', '#f59e0b', '#ef4444'];
+// const COLORS = ['#6366f1', '#8b5cf6', '#06b6d4', '#10b981', '#f59e0b', '#ef4444'];
 
 const MFSection = ({ holdings = [], summary = {} }) => {
   const [filter, setFilter] = useState('');
